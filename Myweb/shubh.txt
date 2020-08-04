@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business website</title>
+<link href=".\css\style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+   
+   <header>
+      
+      <nav>
+      <ul>
+         <li><a  href="#SERVICES">SERVICES</a></li>
+         <li><a href="student">STUDENT</a></li>
+         <li><a href="#KIDS">KIDS</a></li>
+         <li><a href="#ABOUT US">ABOUT US</a></li>
+         <li><a href="#PARTNER WITH US">PARTNER WITH US</a></li>
+         
+      </nav>
+       </ul>
+       <div>
+         <div class="center ">
+            <h1>How our Service works</h1>
+            <hr style="width: 35%" border-bottom: solid 1px #ff0000;>
+         
+            <br>
+            <br>
+            <br>
+           
+            <div style="display: flex; flex-wrap: wrap;">
+            <div style="float: left;height: 100px; width:70px;margin-left: 10px;padding: 100px;">
+               <img src="design.jpg" width="100px">
+               <h3>You Design</h3>
+               <h5>Give Shape to your ideas, using any CAD tool.</h5>
+            </div>
+
+            <div style="float: left;height: 100px; width:70px;margin-left: 100px;padding: 100px;">
+               <img src="upload.jpg" width="100px">
+               <h3>You Upload</h3>
+               <h5>Export your design & Upload the same.</h5>
+            </div>
+
+            <div style="float: left;height: 100px; width:70px;margin-left: 100px;padding: 100px;">
+               <img src="quote.jpg" width="100px">
+               <h3>We quote</h3>
+               <h5>Select the technology, material and get the quote instantly.</h5>
+            </div>
+            
+            <div style="float: left;height: 100px; width:70px;margin-left: 100px;padding: 100px;">
+               <img src="Print.jpg" width="100px">
+               <h3>We 3D Print</h3>
+               <h5>Your files get 3D Printed & Quality Checked.</h5>
+            </div>
+            <div class="col-sm-1"></div>
+            <div style="float: left;height: 100px; width:70px;margin-left: 100px;padding: 100px;">
+               <img src="deliver.jpg" width="100px">
+               <h3>We Deliver</h3>
+               <h5>Pick your order up or get it shipped.</h5>
+            </div>
+         </div>
+      </div>
+   </header> 
+
+   <div style="background-image: url(./home.jpg); height: 1000px;width: auto;margin-top:-738px"></div>
+
+
+</body>
+</html>

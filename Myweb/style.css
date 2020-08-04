@@ -1,0 +1,61 @@
+*
+{
+margin:0;
+padding:0;
+font-family: century Gothic;
+}
+
+main11{
+ /* background-image: url(./homep.jpg);*/
+  margin-top: 50px;
+  margin:0;
+  padding:0;
+  font-family: century Gothic;
+  }
+
+
+header{
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav{
+    width:200;
+    height: 80px;
+    background-color:black;
+  }
+  
+  
+  li{
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(247, 246, 250, 0.836);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+  }
+  
+  
+ 
+ li a:hover {
+    background-color:red;
+    border-radius: 2px;
+  }
+ .wrapper .center{
+   position:absolute;
+   
+ }
+

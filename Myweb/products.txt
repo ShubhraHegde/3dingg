@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+img {
+  border: 5px solid #555;
+}
+
+    </style>
+
+
+</head>
+<body>
+
+<div class="work-section">
+  <h1 style="color: black;" >OUR WORK</h1>
+  <style>
+     h1 {text-align: center;}
+     h1 {font-size:80px;}
+     </style>
+  <br>
+</div>
+
+<div class="row">
+    <div class="column">
+      <img src="prod1.jpg" alt="Snow" style="width:100%">
+    </div>
+
+    <div class="column">
+        <img src="prod4.jpg.png" alt="Mountains" style="width:90%">
+      </div>
+      <div class="column">
+        <img src="prod5.jpg.png" alt="Mountains" style="width:100%; height:100%;">
+      </div>
+      <div class="column">
+        <img src="prod3.jpg.png" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="ser1.gif" alt="Snow" style="width:90%" height="">
+      </div>
+      <div class="column">
+        <img src="ser3.gif" alt="Mountains" style="width:100%">
+      </div>
+      
+  </div>
+</body>
